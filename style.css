@@ -15,10 +15,10 @@ html {
 }
 
 img {
-    height: 65%;
+    height: 60%;
 }
 h1{
-    font-size: xx-large;
+    font-size: large;
 }
 /* Link styling */
 a:link {
@@ -95,6 +95,9 @@ a:hover {
     animation: slideInFromTop 1s ease-out;
 }
 
+* {
+    font-style: normal;
+}
 .one, .two {
     display: table-cell;
     width: 25%;
@@ -103,7 +106,7 @@ a:hover {
 
 .logo {
     display: inline;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 0;
     color: rgb(4, 156, 180);
@@ -113,7 +116,7 @@ a:hover {
 .nav-text {
     display: inline;
     color: rgb(4, 156, 180);
-    font-size: 30px;
+    font-size: 25px;
     animation: slideInFromLeft 1s ease-out 0.5s;
 }
 
@@ -121,8 +124,8 @@ a:hover {
     color: rgb(255, 255, 255);
     background-image: linear-gradient(rgb(4, 156, 180), rgb(8, 14, 194));
     display: inline;
-    height: 50px;
-    font-size: 30px;
+    height: 25px;
+    font-size: 20px;
     border-radius: 0.2cm;
     animation: pulse 2s infinite;
 }
@@ -170,7 +173,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
     line-height: 2%;
@@ -201,7 +204,7 @@ a:hover {
 }
 
 .verify-button {
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 10px;
     height: 5%;
     width: 30%;
@@ -241,27 +244,27 @@ a:hover {
 .vet-one, .vet-two, .vet-three {
     height: 100%;
     width: 100%;
-    font-size: larger;
+    font-size: 25px;
 }
 
 .vet-one {
     background-color: #165593;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     animation: slideInFromLeft 1s ease-out;
 }
 
 .vet-two {
     background-color: #e6e3e3;
     color: #000000;
-    font-size: 35px;
+    font-size: 25px;
     animation: slideInFromTop 1s ease-out 0.5s;
 }
 
 .vet-three {
     background-color: #333333;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     animation: slideInFromRight 1s ease-out 1s;
 }
 
@@ -290,7 +293,7 @@ a:hover {
     background-image: linear-gradient(rgb(102, 179, 195), rgb(8, 122, 151));
     animation: fadeIn 1s ease-in-out 0.5s;
     color: #ffffff;
-    font-size: x-large;
+    font-size: 1rem;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -327,9 +330,9 @@ video{
 
 
 .blog-button{
-    height: 70px;
+    height: 50px;
     width: 200px;
-    font-size: x-large;
+    font-size: 1rem;
     color: #02486d;
     border-radius: 30px;
     font-weight: 700;
@@ -340,7 +343,7 @@ video{
 /* CONTACT PAGE */
 
 .contact-me{
-    font-size: 80px;
+    font-size: 1.5rem;
     color: #e6e6e6;
 }
 
@@ -354,7 +357,7 @@ video{
     height: 10%;
     width: 30%;
     border-radius: 50px; /* More rounded corners */
-    font-size: x-large;
+    font-size: 25px;
     padding: 10px 0; /* Adjust padding for better size balance */
     background-color: #ffffff; /* Light greyish-white background */
     color: #333; /* Dark text for contrast */
@@ -405,9 +408,9 @@ video{
 }
 
 .linkicon, .instaicon, .wpicon, .mailicon, .phoneicon {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 20%;
 }
 
 /* Animations */
