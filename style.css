@@ -1,0 +1,469 @@
+/* This code is written for the index file of my portfolio 
+    Author name: Isha Bhama
+    Contact: -123-2456-2467*/
+
+/* BODY AND HTML TAGS */
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+img {
+    height: 65%;
+}
+h1{
+    font-size: xx-large;
+}
+/* Link styling */
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+.fade-in-on-scroll {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+/* When the element becomes visible in the viewport */
+.fade-in-on-scroll.visible {
+    opacity: 1;
+}
+/*------------------------------------------------------------------- HOME PAGE----------------------------------------------------------------------------*/
+
+.home {
+    background-image: linear-gradient(to right, rgb(0, 103, 140), rgb(0, 5, 107));
+    height: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.ed {
+    background-image: linear-gradient(rgb(144, 187, 203), rgb(255, 255, 255));
+    height: 100%;
+    animation: fadeIn 1s ease-in-out 0.5s;
+}
+
+.about {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    animation: fadeIn 1s ease-in-out 1s;
+}
+
+.blog {
+    background-color: rgb(6, 13, 150);
+    height: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: auto;
+    animation: fadeIn 1s ease-in-out 1.5s;
+}
+
+.contact {
+    background-image: linear-gradient(rgb(0, 159, 183), rgb(0, 79, 118));
+    height: 80%;
+    margin-top: 2rem;
+    position: relative;
+    z-index: auto;
+    animation: fadeIn 1s ease-in-out 2s;
+    
+}
+
+/* NAVBAR */
+.nav-bar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    animation: slideInFromTop 1s ease-out;
+}
+
+.one, .two {
+    display: table-cell;
+    width: 25%;
+    padding: 10px;
+}
+
+.logo {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: rgb(4, 156, 180);
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.nav-text {
+    display: inline;
+    color: rgb(4, 156, 180);
+    font-size: 30px;
+    animation: slideInFromLeft 1s ease-out 0.5s;
+}
+
+.nav-button {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(4, 156, 180), rgb(8, 14, 194));
+    display: inline;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 0.2cm;
+    animation: pulse 2s infinite;
+}
+
+/* HOME SECTION */
+.container {
+    display: flex;
+    height: 100vh;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+
+.home-one {
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    animation: slideUp 1s ease-out 1s;
+}
+
+.home-two {
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    animation: slideUp 1s ease-out 1.5s;
+}
+
+/* EDUCATIONAL BACKGROUND PAGE */
+.container-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    line-height: 2%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.box1, .box2, .box3, .box4 {
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+/* INDIVIDUAL BOX COLORS */
+.box1 {
+    background-color: #165593;
+    color: #ffffff;
+}
+
+.box2, .box3 {
+    background-color: #ffffff;
+    color: #165593;
+}
+
+.box4 {
+    background-color: #165593;
+}
+
+.verify-button {
+    font-size: 20px;
+    padding: 5px 10px;
+    height: 5%;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    background-color: #04aed0; /* Blue color */
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .verify-button:hover {
+    background-color: #6905b0; /* Darker blue on hover */
+  }
+
+
+/* SKILLS AND ACHIEVEMENTS PAGE */
+.container-three {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: larger;
+    animation: fadeIn 1s ease-in-out;
+}
+.volunteer{
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    animation: slideInFromLeft 1s ease-out;
+}
+.vet-one, .vet-two, .vet-three {
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+}
+
+.vet-one {
+    background-color: #165593;
+    color: #ffffff;
+    font-size: 35px;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.vet-two {
+    background-color: #e6e3e3;
+    color: #000000;
+    font-size: 35px;
+    animation: slideInFromTop 1s ease-out 0.5s;
+}
+
+.vet-three {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 35px;
+    animation: slideInFromRight 1s ease-out 1s;
+}
+
+/* BLOG PAGE */
+.container-four {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: larger;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.blog-one, .blog-two {
+    height: 100%;
+    width: 100%;
+}
+
+
+.blog-one {
+    background-image: linear-gradient(rgb(102, 179, 195), rgb(8, 122, 151));
+    animation: fadeIn 1s ease-in-out;
+    
+}
+.blog-two {
+    background-image: linear-gradient(rgb(102, 179, 195), rgb(8, 122, 151));
+    animation: fadeIn 1s ease-in-out 0.5s;
+    color: #ffffff;
+    font-size: x-large;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    animation: slideUp 1s ease-out 1s;
+
+    
+}
+
+.textblog{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    animation: fadeIn 3s ease-in-out forwards; /* Fade-in animation */
+    object-fit: cover;
+    
+
+}
+
+@keyframes moveOut {
+    0% {
+        transform: translateX(0); /* Start at original position */
+    }
+    100% {
+        transform: translateX(-100vw); /* Move to the left side of the screen */
+    }
+ } 
+
+
+.blog-button{
+    height: 70px;
+    width: 200px;
+    font-size: x-large;
+    color: #02486d;
+    border-radius: 30px;
+    font-weight: 700;
+    animation: fadeIn 3s ease-in-out forwards; /* Fade-in animation */
+}
+
+
+/* CONTACT PAGE */
+
+.contact-me{
+    font-size: 80px;
+    color: #e6e6e6;
+}
+
+.social{
+    
+    font-size: x-large;
+}
+
+
+.instagram,.linkedin, .whatsapp, .gmail, .phone {
+    height: 10%;
+    width: 30%;
+    border-radius: 50px; /* More rounded corners */
+    font-size: x-large;
+    padding: 10px 0; /* Adjust padding for better size balance */
+    background-color: #ffffff; /* Light greyish-white background */
+    color: #333; /* Dark text for contrast */
+    border: 2px solid #ccc; /* Light grey border for subtle definition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+    animation: fadeIn 1s ease-in-out; /* Animation for fade-in */
+    text-align: center; /* Center text within the button */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center icon/text inside the button */
+}
+
+.instagram:hover, .linkedin:hover, .whatsapp:hover, .gmail:hover, .phone:hover {
+    transform: scale(1.05); /* Slight scale-up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    background-color: #e6e6e6; /* Slight darkening of the background color */
+}
+
+.instagram:active, .linkedin:active, .whatsapp:active, .gmail:active, .phone:active {
+    transform: scale(0.95); /* Slight scale-down on active (click) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Reset shadow */
+    background-color: #d9d9d9; /* Even darker on click */
+}
+
+.instagram {
+    color: #eb08b7;
+    background-color: rgb(255, 255, 255);
+}
+
+.whatsapp {
+    color: #67d449;
+    background-color: rgb(255, 255, 255);
+}
+
+.gmail {
+    color: #e51c19;
+    background-color: rgb(255, 255, 255);
+}
+
+.phone {
+    color: #78b4d5;
+    background-color: rgb(255, 255, 255);
+}
+
+.instagram:hover, .whatsapp:hover, .gmail:hover, .phone:hover {
+    transform: scale(1.1);
+}
+
+.linkicon, .instaicon, .wpicon, .mailicon, .phoneicon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
