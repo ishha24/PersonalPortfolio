@@ -20,7 +20,7 @@ img {
 }
 
 h1 {
-    font-size: calc(1.5rem + 2vw);
+    font-size: calc(1.5rem + 2vw); /* Responsive font size */
 }
 
 /* Link styling */
@@ -94,19 +94,19 @@ a:hover {
     z-index: 1000;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 2vw; /* Padding adjusted for responsiveness */
     animation: slideInFromTop 1s ease-out;
 }
 
 .one, .two {
     display: table-cell;
     width: 25%;
-    padding: 10px;
+    padding: 2vw; /* Adjusted for responsiveness */
 }
 
 .logo {
     display: inline;
-    font-size: 2rem;
+    font-size: calc(1.5rem + 1vw); /* Responsive font size */
     font-weight: bold;
     margin-bottom: 0;
     color: rgb(4, 156, 180);
@@ -116,7 +116,7 @@ a:hover {
 .nav-text {
     display: inline;
     color: rgb(4, 156, 180);
-    font-size: 1.5rem;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
     animation: slideInFromLeft 1s ease-out 0.5s;
 }
 
@@ -125,7 +125,7 @@ a:hover {
     background-image: linear-gradient(rgb(4, 156, 180), rgb(8, 14, 194));
     display: inline;
     height: 50px;
-    font-size: 1.5rem;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
     border-radius: 0.2cm;
     animation: pulse 2s infinite;
 }
@@ -140,12 +140,12 @@ a:hover {
 
 .home-one, .home-two {
     flex: 1;
-    padding: 10px;
+    padding: 2vw; /* Adjusted padding */
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
     animation: slideUp 1s ease-out 1s;
 }
 
@@ -155,14 +155,14 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100vh;
-    gap: 10px;
+    gap: 2vw; /* Adjusted gap */
 }
 
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
     font-weight: bold;
     color: white;
     line-height: 2%;
@@ -219,7 +219,7 @@ a:hover {
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    font-size: larger;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -233,7 +233,7 @@ a:hover {
 .vet-one, .vet-two, .vet-three {
     height: 100%;
     width: 100%;
-    font-size: larger;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
 }
 
 .vet-one {
@@ -263,7 +263,7 @@ a:hover {
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    font-size: larger;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -281,11 +281,10 @@ a:hover {
     background-image: linear-gradient(rgb(102, 179, 195), rgb(8, 122, 151));
     animation: fadeIn 1s ease-in-out 0.5s;
     color: #ffffff;
-    font-size: x-large;
+    font-size: calc(1.5rem + 1vw); /* Responsive font size */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
     animation: slideUp 1s ease-out 1s;
 }
 
@@ -305,7 +304,7 @@ video {
 .blog-button {
     height: 70px;
     width: 200px;
-    font-size: x-large;
+    font-size: calc(1rem + 1vw); /* Responsive font size */
     color: #02486d;
     border-radius: 30px;
     font-weight: 700;
@@ -314,19 +313,19 @@ video {
 
 /* CONTACT PAGE */
 .contact-me {
-    font-size: 5vw;
+    font-size: calc(3vw + 1rem); /* Responsive font size */
     color: #e6e6e6;
 }
 
 .social {
-    font-size: 1.5rem;
+    font-size: calc(1.25rem + 1vw); /* Responsive font size */
 }
 
 .instagram, .linkedin, .whatsapp, .gmail, .phone {
     height: 10%;
     width: 30%;
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: calc(1.2rem + 1vw); /* Responsive font size */
     padding: 10px 0;
     background-color: #ffffff;
     color: #333;
